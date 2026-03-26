@@ -14,7 +14,7 @@ const App = () => (
       <Sonner />
       <HashRouter>
         <Routes>
-          <Route path="/" element={<Navigate to="/review" replace />} />
+          <Route path="/" element={<Navigate to="review" replace />} />
           <Route path="review" element={<SupplierSelector />} />
           <Route path="review/:supplierCode" element={<ReviewWorkspace />} />
           <Route path="*" element={<NotFound />} />
