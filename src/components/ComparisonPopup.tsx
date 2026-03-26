@@ -284,7 +284,7 @@ export default function ComparisonPopup({
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center animate-fade-in">
       <div className="absolute inset-0 bg-foreground/40" onClick={onClose} />
-      <div className="relative bg-card border border-border rounded-lg shadow-xl w-[92vw] max-w-5xl max-h-[88vh] flex flex-col animate-slide-up">
+      <div className="relative bg-card border border-border rounded-lg shadow-xl w-[95vw] max-w-6xl max-h-[92vh] sm:max-h-[90vh] md:max-h-[88vh] lg:max-h-[85vh] flex flex-col animate-slide-up">
         {/* Close button */}
         <button
           onClick={onClose}
